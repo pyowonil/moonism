@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RSA">
+      <UniqueIdentifier>{316f6ebb-3ae2-45bc-ad2f-e811e674fe0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{70b0a1c0-0eff-4661-9b20-54cd8341ac1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Server">
+      <UniqueIdentifier>{99ccfc50-e918-4d81-a1f4-22d42b2984ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Client">
+      <UniqueIdentifier>{da681781-332c-4587-97e8-68f1bec61e59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Simulation\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Simulation\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="smain.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Simulation\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Simulation\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
